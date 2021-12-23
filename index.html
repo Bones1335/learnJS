@@ -8,13 +8,19 @@
 </head>
 <body>
     <script>
-        function lastLetter(str) {
-            return str.charAt(str.length - 1)
+        let answer = parseInt(prompt('Please enter the number you would like to FizzBuzz up to: '));
+
+        for (let i = 1; i <= answer; i++) {
+            if (i % 3 === 0) {
+                console.log('Fizz');
+            } else {
+                console.log(i);
+            }
         }
         
         
        
-        console.log();
+        
     </script>
 </body>
 </html>
